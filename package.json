@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.12.1"
+  },
+  "name": "draven-socket-io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dravenxiaokai/draven-socket-io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dravenxiaokai/draven-socket-io/issues"
+  },
+  "homepage": "https://github.com/dravenxiaokai/draven-socket-io#readme",
+  "description": ""
+}
